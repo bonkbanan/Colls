@@ -4,24 +4,10 @@ import java.util.*;
 
 public class Main {
 
-   public static String getPrefix(String[] array){
-        //your code here найти спільний префікм
-       return null;
-   }
-
-    public static Boolean hasRepetitions(int[] array){
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array.length; j++) {
-                //your code here найти повторяюще число
-            }
-        }
-        return false;
-    }
 
     public static void main(String[] args) {
 	    int[] array= {1, 9, 8, 16, 35, 7, 56, 2, 1, 8};
 	    String[] array2={"abc","abcd","abcde","aba"};
-        System.out.println(hasRepetitions(array));
         System.out.println("_______Collections_______");
         List<Integer> list = new ArrayList<>(
                 Arrays.asList(1,23,54,765,876,5,464,56)
